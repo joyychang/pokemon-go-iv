@@ -47,4 +47,8 @@ export default {
   maxCP(items) {
     return _.sortBy(items, (v) => -v.maxCP);
   },
+
+  percentage(items) {
+    return _.sortBy(items, (v) => -v.percentage);
+  }
 };

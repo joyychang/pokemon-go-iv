@@ -52,13 +52,17 @@ const getItems = () => {
 getItems().then((items) => {
   const FIELDS = [
     'name',
+    'nickname',
     'pokemon_id',
+    'stamina_max',
     'cp',
-    'stamina',
     'maxCP',
+    'percentage',
     'height_m',
     'weight_kg',
     'level',
+    'move_1',
+    'move_2',
     'individual_attack',
     'individual_defense',
     'individual_stamina',
